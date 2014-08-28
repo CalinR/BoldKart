@@ -37,13 +37,15 @@ public class ThirdPersonCamera : MonoBehaviour
 
     void OnEnable()
     {
+
+		/*
         if (!cameraTransform && Camera.main)
             cameraTransform = Camera.main.transform;
         if (!cameraTransform)
         {
             Debug.Log("Please assign a camera to the ThirdPersonCamera script.");
             enabled = false;
-        }
+        }*/
 
 
         _target = transform;

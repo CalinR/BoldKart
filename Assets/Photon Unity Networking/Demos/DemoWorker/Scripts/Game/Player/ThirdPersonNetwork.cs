@@ -5,11 +5,13 @@ public class ThirdPersonNetwork : Photon.MonoBehaviour
 {
     ThirdPersonCamera cameraScript;
     ThirdPersonController controllerScript;
+	public GameObject mainCamera;
 
     void Awake()
     {
         cameraScript = GetComponent<ThirdPersonCamera>();
         controllerScript = GetComponent<ThirdPersonController>();
+		Debug.Log (photonView.isMine);
 
          if (photonView.isMine)
         {
@@ -18,9 +20,9 @@ public class ThirdPersonNetwork : Photon.MonoBehaviour
             controllerScript.enabled = true;
         }
         else
-        {           
+        {    
             cameraScript.enabled = false;
-
+			mainCamera.camera.enabled = false;
             controllerScript.enabled = true;
             controllerScript.isControllable = false;
         }
