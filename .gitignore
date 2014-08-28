@@ -1,24 +1,33 @@
-.DS_Store
+# =============== #
+# Unity generated #
+# =============== #
 Temp/
+Obj/
+UnityGenerated/
 Library/
-obj/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
 *.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
 *.sln
- 
-!Library/*.asset
- 
-/Goldeneye.userprefs
-/Goldeneye-csharp.sln
-/Goldeneye.sln
-/Assembly-CSharp.csproj
-/Assembly-CSharp.pidb
-/Assembly-CSharp-Editor.csproj
-/Assembly-CSharp-Editor.pidb
-/Assembly-CSharp-Editor-vs.csproj
-/Assembly-CSharp-firstpass.csproj
-/Assembly-CSharp-firstpass.pidb
-/Assembly-CSharp-firstpass-vs.csproj
-/Assembly-CSharp-vs.csproj
-/Assembly-UnityScript-firstpass.pidb
-/Assembly-UnityScript-firstpass.unityproj
-/Assembly-UnityScript-firstpass-vs.unityproj
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
