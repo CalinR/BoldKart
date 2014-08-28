@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BoldKart.cs">
+    <Files>
+      <File FileName="Assets/Photon Unity Networking/Demos/DemoWorker/Scripts/WorkerInGame.cs" Line="94" Column="55" />
+      <File FileName="Assets/Photon Unity Networking/Demos/DemoWorker/Scripts/WorkerMenu.cs" Line="17" Column="40" />
+      <File FileName="Assets/Scripts/BoldKart.cs" Line="14" Column="6" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="234" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

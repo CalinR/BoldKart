@@ -18,7 +18,7 @@ public class WorkerMenu : MonoBehaviour
 
     public static readonly string SceneNameMenu = "DemoWorker-Scene";
 
-    public static readonly string SceneNameGame = "DemoWorkerGame-Scene";
+    public static readonly string SceneNameGame = "track1";
 
     private string errorDialog;
     private double timeToClearDialog;
